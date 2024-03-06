@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'Korean Calligraphy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
+    }
+
+.footerBg {
+    background-image: url('../assets/FooterImg.jpg');
+    height: 1080px;
+width: 1620px;
+display: block;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+position: relative;
+}
+
+.contactForm {
+text-align: center;
+font-size: 40px;
+color: ghostwhite;
+}
+
+li, legend {
+    font-size: 20px;
+    text-align: center;
+    font-family: Korean Calligraphy;
+    margin-top: 25px;
+}
+
+
+
+.footerContent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.hours, .contacts {
+    color: ghostwhite;
+}
+
+.formWrapper {
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+ .formContent {
+    background-color: #132823a5;
+    margin-top: calc(100% - 90%);
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.overlayBg {
+    background-color: #132823a5;
+    margin-top: calc(100% - 90%);
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px;
+}
+
+
+legend {
+    font-family: Korean Calligraphy;
+text-align: center;
+font-size: 25px;
+width: 100%;
+padding: 20px;
+color: ghostwhite;
+
+}
+
+label {
+    font-family: Korean Calligraphy;
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+    padding: 20px;
+    color: ghostwhite;
+}
+
+fieldset {
+    border-color: ghostwhite;
+    border-style: dotted;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   width: 75%;
+}
+
+
+input {
+    margin: 1px 25px;
+    padding: 5px 6px;
+    border-radius: 25px;
+}
+
+textarea {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: Korean Calligraphy;
+    background-color: #d1460be6;
+    color: ghostwhite;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}

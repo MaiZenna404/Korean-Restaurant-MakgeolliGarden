@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Korean Calligraphy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Orchidee Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Orchidee Light'), url('../fonts/orchidee-cufonfonts-webfont/ORCHL___.woff') format('woff');
+        }
+        
+    
+        @font-face {
+        font-family: 'Orchidee Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Orchidee Medium'), url('../fonts/orchidee-cufonfonts-webfont/ORCHM___.woff') format('woff');
+        }
+    
+        

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Korean Calligraphy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
+    }
+
+    .menuPage, .menuPage2 {
+        background-color: #eeeedd;
+        width: 1620px;
+        height: 100%;
+        margin: 0;
+    }
+
+section {
+    display: flex;
+    margin: 25px 0px 1px 50px;
+}
+
+.Appetizers, .Entrees, .Desserts, .soft, .alcohol {
+    margin : 0px 25px 25px 50px;
+}
+
+.sideImg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sideLeftImg1 {
+    width: 320px;
+    height: 240px;
+    padding: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #34685C;
+    border-radius: 50%;
+}
+
+.sideLeftImg2{
+    margin-top: 25px;
+    width: 256px;
+    height: 184px;
+    padding: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #34685C;
+    border-radius: 50%;
+}
+
+.sideMiddle{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideMiddleImg1 {
+    border-radius: 50%;
+    width: 200px;
+    height: 260px;
+    padding: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #34685C;
+    border-radius: 50%;
+}
+
+.sideMiddleImg2 {
+    border-radius: 50%;
+    width: 256px;
+    height: 170px;
+    padding: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #34685C;
+    border-radius: 50%;
+
+}
+
+.sideMiddleImg3 {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #34685C;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.Appetizers {
+    flex: 2;
+}
+
+.Entrees {
+    flex: 3;
+}
+
+h2 {
+    font-family: Korean Calligraphy;
+    color: #1b6050;
+    padding : 50px 0px;
+    font-size: 35px;
+    margin-left: 15px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 20px ;
+    font-family: Korean Calligraphy;
+    color: #1b6050;
+}
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.DessertsAndDrinks {
+    display: flex;
+}
+
+.Desserts {
+    flex : 3;
+}
+
+.soft {
+    flex : 3;
+}
+
+.alcohol {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Korean Calligraphy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Orchidee Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Orchidee Light'), url('../fonts/orchidee-cufonfonts-webfont/ORCHL___.woff') format('woff');
+        }
+        
+    
+        @font-face {
+        font-family: 'Orchidee Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Orchidee Medium'), url('../fonts/orchidee-cufonfonts-webfont/ORCHM___.woff') format('woff');
+        }
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    background-color: #014837;
+    opacity: 0.75;
+    display: flex;
+    justify-content: flex-start;
+    height: calc(100% - 90%);
+    align-items: center;
+    font-family: Korean Calligraphy;
+    z-index: 100;
+}
+
+.menu-icons {
+    margin-left : 3rem;
+    font-size: 30px;
+    background: none;
+    color: ghostwhite;
+}
+
+.side-menu{
+    background-color: #34685C;
+    opacity: 0.75;
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    transition: 1000ms;
+    
+
+}
+
+.side-menu.active {
+    transform: translateX(0%);
+    transition: 1000ms;
+    z-index: 51; /* Pour que la side Navbar ne soit pas caché par le overlay de la page qui est en position absolute + pour que ça passe au dessus de la nav bar quand elle est ouverte*/
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0 40px 20px;
+    list-style: none;
+    height: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 25px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 4px;
+    font-family: 'Orchidee Medium'
+}
+
+/* Penser à faire un nav-links a:hover*/
+
+.navbar-options {
+    width: 100%;
+}
+
+.navbar-close {
+    background-color: #34685C;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    ;
+}
+
+span {
+    margin-left: 30px;
+}

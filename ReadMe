@@ -1,0 +1,20 @@
+Ce code est un projet de site web pour un restaurant coréen. 
+
+C'est un site en single page, fait en React. 
+
+///////////////////////////////////////////////////
+
+Parmi les choses à faire si j'avais eu plus de temps pour réaliser ce projet : 
+
+- Créer et faire une option afin de pouvoir contrôler les saisies dans le form, et si tous les champs sont bien remplis avant l'envoi. + Snackbar qui pop en guise d'alert lors d'une erreur. 
+
+- Régler le soucis de width plus large que l'écran.
+
+- Optimiser le code et mieux ranger les fichiers. 
+
+- Ajouter une favicon.
+
+- Améliorer le grid gallery des plats avec des formats d'images variées
+
+- Faire un scroll smooth sur toute la longueur de la page lorsque l'on clique sur les liens de la navbar, au lieu d'être redirigé vers un nouvel onglet
+

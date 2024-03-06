@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Korean Calligraphy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
+    }
+
+
+.snackbarContent {
+position: fixed;
+width: 350px;
+height: 60px;
+border-radius: 8px;
+left: 50%;
+top: 20%;
+transform: translate(-50%, -50%);
+display: flex;
+align-items: center;
+text-align: start;
+font-family: Korean Calligraphy;
+color: ghostwhite;
+font-size: 18px;
+}
+
+.snackbarContent .symbol {
+    flex: 20%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.snackbarContent .message {
+    flex: 80%;
+    text-align: start;
+}
+
+#appear {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 0.5s;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+@keyframes fadeOut {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
