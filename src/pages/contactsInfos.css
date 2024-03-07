@@ -42,7 +42,7 @@ li, legend {
     color: ghostwhite;
 }
 
-.openingHoursFooter, .formWrapper {
+.openingHoursFooter{
     z-index: 50;
 }
 
@@ -84,40 +84,6 @@ text-align: center;
 font-size: 25px;
 width: 75%;
 
-}
-
-fieldset {
-    border-color: ghostwhite;
-    border-style: dotted;
-    padding: 20px;
-    text-align: center;
-}
-
-.reviewInput {
-    margin-bottom: 15px;
-}
-
-input {
-    margin: 1px 25px;
-    padding: 5px 6px;
-    border-radius: 25px;
-}
-
-textarea {
-    margin-top: 15px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-button {
-    font-size: 20px;
-    margin-top: 25px;
-    font-family: Korean Calligraphy;
-    background-color: #d1460be6;
-    color: ghostwhite;
-    padding: 15px;
-    border-radius: 25px;
-    border: none;
 }
 
  /* Responsive */

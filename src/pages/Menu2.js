@@ -79,7 +79,6 @@ const Menu2 = () => {
           )
         })}
         </ul>
-        
         <article className='sideImg'>
           
           <img className='sideMiddleImg3' src={Img3} alt="" />

@@ -33,7 +33,6 @@ padding: 75px;
 
 const Menu = () => {
 
-
   return (
     <>
     <div className='menuPage'>
