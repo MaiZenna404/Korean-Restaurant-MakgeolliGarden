@@ -78,6 +78,12 @@ const images = [
  padding: 75px;
  margin : 2px;
  text-align: center;
+
+ 
+ @media screen and (max-width: 820px) {
+  margin-left: 50px;
+  
+ }
  `;
 
 

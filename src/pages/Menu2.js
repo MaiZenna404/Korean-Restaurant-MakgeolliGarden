@@ -17,6 +17,12 @@ font-size: 50px;
 color : #1b6050;
 padding: 75px;
  margin : 2px;
+
+ @media screen and (max-width: 820px) {
+  margin-left: 75px;
+  
+ }
+ 
  `;
 
 const Menu2 = () => {

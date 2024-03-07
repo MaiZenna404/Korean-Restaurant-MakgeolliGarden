@@ -26,6 +26,7 @@ padding: 75px;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-left: 75px;
   
 }
  `;

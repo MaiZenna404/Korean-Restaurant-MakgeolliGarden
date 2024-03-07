@@ -12,7 +12,20 @@ width: 1620px;
 display: block;
 position: absolute;
 opacity: 0.4;
-z-index: auto;`;
+z-index: auto;
+
+ /* Responsive */
+
+ @media screen and (max-width: 820px) {
+
+height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+`;
 
 
 
