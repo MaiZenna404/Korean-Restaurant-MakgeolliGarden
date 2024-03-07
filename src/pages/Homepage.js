@@ -23,6 +23,8 @@ background-repeat: no-repeat;
 background-size: cover;
 margin: 0;
 position: relative;
+
+
 `;
 
 const HomepageOverlay = styled.div`

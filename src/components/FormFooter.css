@@ -6,17 +6,6 @@
     src: local('Korean Calligraphy'), url('../fonts/korean-calligraphy-cufonfonts-webfont/Korean_Calligraphy.woff') format('woff');
     }
 
-.footerBg {
-    background-image: url('../assets/FooterImg.jpg');
-    height: 1080px;
-width: 1620px;
-display: block;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0;
-position: relative;
-}
-
 .contactForm {
 text-align: center;
 font-size: 40px;
@@ -30,18 +19,6 @@ li, legend {
     margin-top: 25px;
 }
 
-
-
-.footerContent {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 25px;
-    align-items: center;
-}
-
-.hours, .contacts {
-    color: ghostwhite;
-}
 
 .formWrapper {
     z-index: 50;
@@ -58,12 +35,6 @@ li, legend {
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-.overlayBg {
-    background-color: #132823a5;
-    margin-top: calc(100% - 90%);
-    padding: 15px 0px 15px 0px;
-    border-radius: 30px;
 }
 
 

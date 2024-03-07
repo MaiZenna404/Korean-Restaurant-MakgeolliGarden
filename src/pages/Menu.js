@@ -18,6 +18,16 @@ font-size: 50px;
 color : #1b6050;
 padding: 75px;
  margin : 2px;
+
+ /* Responsive */ 
+@media screen and (max-width: 820px) {
+  height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  
+}
  `;
 
 const Menu = () => {

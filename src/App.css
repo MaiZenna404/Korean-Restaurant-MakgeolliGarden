@@ -1,14 +1,21 @@
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* .home, .menu, .gallery {
+ .home, .menu, .gallery {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
 }
-*/
+
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  max-width: 900px;
+  padding: 1rem;
+}
