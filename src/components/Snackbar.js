@@ -3,7 +3,7 @@ import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { BiErrorAlt } from "react-icons/bi";
 import './Snackbar.css'
 
-const Snackbar = forwardRef((props, ref) => {
+const Snackbar = forwardRef((props, ref) => { //ref : permet de pouvoir lier l'élément parent (ici button du fichier FormFooter.js) afin qu'il puisse accéder à la fonction useImperativeHandle dans ce fichier 
 
   const [showSnackbar, setShowSnackbar] = useState(false);
 

@@ -12,7 +12,7 @@ export default function FormFooter() {
     const [review, setReview] = useState("");
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); // Permet d'empêcher le comportement par défaut d'un élément (ex : rechargement de la page après un form, etc)
         console.log(firstName, lastName, email, review);
         
         addDoc(collection(db, "customers-reviews"), {
@@ -53,7 +53,7 @@ const snackbarRef = useRef(null)
             <button href="/" type="submit" className='showSnackbar' onClick={() => {snackbarRef.current.appear()}}>Send</button>
             <Snackbar 
             ref={snackbarRef}
-            message="Your review has been sent to us ! 👍" type={SnackbarState.completed}/>
+            message="Your review has been sent to us ! 👍" type={SnackbarState.completed}/> 
             </form>
            
         </div>
