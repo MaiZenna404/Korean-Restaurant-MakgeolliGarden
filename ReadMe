@@ -2,6 +2,8 @@ Ce code est un projet de site web pour un restaurant coréen.
 
 C'est un site en single page, fait en React. 
 
+Le dossier Firebase avec firebase.js a été enlevé
+
 ///////////////////////////////////////////////////
 
 Parmi les choses à faire si j'avais eu plus de temps pour réaliser ce projet : 
