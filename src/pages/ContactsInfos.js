@@ -36,7 +36,6 @@ const ContactsInfos = () => {
 
       return (
         <>
-        
         <div className='footerBg'>
             <FooterOverlay />
             <section className='footerContent'>

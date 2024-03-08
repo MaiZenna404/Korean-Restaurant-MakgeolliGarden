@@ -12,6 +12,7 @@ import '../fonts/fonts.css'
 
 const Page = styled.body`
 margin: 0;
+
 `;
 
 const Body = styled.div`
@@ -24,6 +25,9 @@ background-size: cover;
 margin: 0;
 position: relative;
 
+@media screen and (max-width: 820px) {
+  width: 100%;
+}
 
 `;
 
@@ -41,8 +45,8 @@ z-index: auto; // Modif
 
 const Logo = styled.div`
 transform: rotateZ(330deg);
-left: 525px;
-bottom: 255px;
+left: 500px;
+bottom: 300px;
 width: 250px;
 height: 230px;
 background: url(${LogoResto}) 0 45% no-repeat;
@@ -50,6 +54,11 @@ background-size: 100% 100%;
 cursor: pointer;
 z-index: 9; // modif
 position: relative;
+
+@media screen and (max-width: 820px) {
+  left: 85px;
+  bottom: 450px;
+}
 
 
 `;
@@ -80,6 +89,11 @@ const RestaurantName = styled.h1`
  padding: 25px 0;
  font-size: 75px;
 
+ @media screen and (max-width: 820px) {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
  `;
 
 const Description = styled.p`
@@ -87,6 +101,14 @@ const Description = styled.p`
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    @media screen and (max-width: 820px) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: calc(100% - 75%);
+}
+    
   
 `;
 const Intro = styled.p`
@@ -101,6 +123,14 @@ const ButtonWrapper = styled.div`
 margin-top: 100px;
 display: flex;
 justify-content: center;
+
+@media screen and (max-width: 820px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 0px;
+}
+
 `;
 
 const Button = styled.a`
@@ -164,11 +194,12 @@ function Homepage() {
         <RestaurantName>Makgeolli <br/> Garden</RestaurantName>
             <Description>
                 <Intro>
-                Experience Seoul's vibrant atmosphere in the heart of Paris. <br/>
-                <br />
-                Immerse yourself in an authentic culinary journey where Korean flavors meet Parisian elegance. <br />
+                Experience Seoul's vibrant atmosphere in the heart of Paris.</Intro>
                 <br/>
-Welcome to our restaurant, where each dish is an exhilarating voyage into the culture and cuisine of South Korea.
+                <br />
+                <Intro>Immerse yourself in an authentic culinary journey where Korean flavors meet Parisian elegance.</Intro> <br />
+                <br/>
+<Intro>Welcome to our restaurant, where each dish is an exhilarating voyage into the culture and cuisine of South Korea.
                  </Intro>
             </Description>
 </Text>

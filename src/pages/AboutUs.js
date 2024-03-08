@@ -12,7 +12,13 @@ display: block;
 background-repeat: no-repeat;
 background-size: contain;
 margin-top: 0;
-position: relative;`;
+position: relative;
+
+@media screen and (max-width: 820px) {
+  width: 100%;
+  background-size: cover;
+}
+`;
 
 const Overlay = styled.div`
 background-color: #132823;
@@ -31,16 +37,18 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-left: 275px;
+margin-left: 20%;
 
 `;
 
 const Title = styled.h1`
  font-family: Korean Calligraphy;
  color: #ffffff;
- padding: 35px;
+ padding: 50px;
  font-size: 50px;
  z-index: 15;
+ text-align: center;
+ position: relative;
  `;
 
 const Text1 = styled.p` font-family: Korean Calligraphy;
@@ -63,20 +71,14 @@ const AboutUs = () => {
     <>
       <Content>
         <Overlay />
-            <TextWrapper>
+            
             <Title> About Us</Title>
             
-
+            <TextWrapper>
             <Text1>Welcome to Makgeolli Garden, where we invite you to embark on a culinary adventure blending the vibrant flavors of Seoul with the timeless elegance of Paris. Nestled in the heart of the city, our restaurant is a celebration of Korean cuisine and culture, curated to delight even the most discerning palates.</Text1>
             <br />
             <br /> 
-            <Text1>At Makgeolli Garden, we are passionate about delivering an authentic experience that transports our guests to the bustling streets of Seoul. Our chefs artfully combine traditional Korean recipes with modern techniques, sourcing the finest ingredients to ensure each dish is a harmonious symphony of flavors.</Text1>
-            <br/>
-            <br/>
-            <Text1>Step inside our inviting space and let the ambiance whisk you away to a world where every meal is a celebration. Whether you're craving the bold spiciness of kimchi, the comforting warmth of bibimbap, or the sizzle of Korean barbecue, our menu offers a tantalizing array of options to satisfy every craving.</Text1>
-            <br/>
-            <br/>
-            <Text1>Beyond the food, our attentive staff is dedicated to providing impeccable service, ensuring that every visit to [Restaurant Name] is an unforgettable experience. Whether you're joining us for a casual lunch, a romantic dinner, or a special celebration, we strive to exceed your expectations at every turn.</Text1>
+            <Text1>We are passionate about delivering an authentic experience that transports our guests to the bustling streets of Seoul. Our chefs artfully combine traditional Korean recipes with modern techniques, sourcing the finest ingredients to ensure each dish is a harmonious symphony of flavors.</Text1>
             <br/>
             <br/>
             <Text1>Join us at Makgeolli Garden and discover why we're more than just a dining destination – we're a culinary journey that celebrates the rich tapestry of Korean cuisine, right in the heart of Paris."</Text1>

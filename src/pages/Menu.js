@@ -4,7 +4,7 @@ import { Appetizers } from './menuElements/Appetizers';
 import { Entrees } from './menuElements/Entrees';
 import '../fonts/fonts.css';
 import './FullMenu.css';
-
+// import d'images du menu
 import Img1 from './menuImg/kimchiPancake.jpg'
 import Img2 from './menuImg/menuBibimbap.jpg'
 import Img3 from './menuImg/samgyetang.jpg'
@@ -45,7 +45,7 @@ const Menu = () => {
           <img className='sideLeftImg2' src={Img3} alt="" />
         </article>
         <article className='Appetizers'>
-    <h2>Appetizers</h2>
+    <h2>Starters</h2>
       <ul>
         {Appetizers.map((item, index) => {
           return (

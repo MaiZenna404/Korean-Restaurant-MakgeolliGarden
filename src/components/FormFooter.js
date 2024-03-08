@@ -14,7 +14,7 @@ export default function FormFooter() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(firstName, lastName, email, review);
-
+        
         addDoc(collection(db, "customers-reviews"), {
             "firstName": firstName,
             "lastName": lastName,
