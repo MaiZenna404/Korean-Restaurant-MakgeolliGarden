@@ -19,6 +19,9 @@ li, legend {
     margin-top: 25px;
 }
 
+.firstName, .lastName, .email, .review {
+    color: ghostwhite;
+  }
 
 .formWrapper {
     z-index: 50;
@@ -54,7 +57,7 @@ label {
     font-size: 25px;
     width: 100%;
     padding: 20px;
-    color: ghostwhite;
+    color: rgb(0, 0, 0);
 }
 
 fieldset {

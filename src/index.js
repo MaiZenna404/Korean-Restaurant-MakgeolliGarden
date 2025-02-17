@@ -7,7 +7,8 @@ import AboutUs from './pages/AboutUs';
 import Menu from './pages/Menu';
 import Menu2 from './pages/Menu2';
 import GalleryPage from './pages/Gallery';
-import ContactsInfos from './pages/ContactsInfos';
+//import ContactsInfos from './pages/ContactsInfos';
+import StaffPortal from './pages/staffPortal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,9 +21,10 @@ root.render(
         <Route path= '/menu' element= { <Menu />} />
         <Route path= '/menu' element= { <Menu2 />} />
         <Route path= '/gallerypage' element= { <GalleryPage />} />
-        <Route path= '/contacts-and-infos' element= { <ContactsInfos />} />
+        <Route path= '/staffportal' element= { <StaffPortal />} />
       </Routes>
       </Router>
   </React.StrictMode>
 );
 
+// Penser à remettre "<Route path= '/contacts-and-infos' element= { <ContactsInfos />} />" pour une version ultérieure

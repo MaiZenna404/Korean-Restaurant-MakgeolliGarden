@@ -3,7 +3,8 @@ import { TfiHome } from "react-icons/tfi"; // icône pour Accueil
 import { MdRestaurantMenu } from "react-icons/md"; // icône pour le menu
 import { IoInformationCircleOutline } from "react-icons/io5"; // icône pour le about us
 import { PiBowlFood } from "react-icons/pi"; // icône pour Gallery
-import { CiMail } from "react-icons/ci"; // icône pour le Contacts Us
+//import { CiMail } from "react-icons/ci"; // icône pour le Contacts Us
+import { RiAdminFill } from "react-icons/ri";; // icône pour le Staff Portal
 
 export const NavBarElements = [
     {
@@ -30,10 +31,16 @@ export const NavBarElements = [
         icon: <PiBowlFood />,
         elementClass: 'nav-links'
     },
-    {
-        name: 'Contacts - Infos',
+   /* {
+        name: 'Contacts',
         path: '/contacts-and-infos',
         icon: <CiMail />,
+        elementClass: 'nav-links'
+    },*/
+    {
+        name: 'Staff Portal',
+        path: '/staffportal',
+        icon: <RiAdminFill />,
         elementClass: 'nav-links'
     }
 ]

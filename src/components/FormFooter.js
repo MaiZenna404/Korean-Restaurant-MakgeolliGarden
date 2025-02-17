@@ -38,16 +38,16 @@ const snackbarRef = useRef(null)
                 
 <fieldset>
             <legend><h2 className='contactForm'>Contact Us 🤙</h2></legend>
-                <label htmlFor='firstName'>First Name</label>
+                <label htmlFor='firstName' className='firstName'>First Name</label>
                 <input required type="text" name="firstName" id="firstName" placeholder="Enter your First Name here" autoComplete='given-name' value={firstName} onChange={(e) => setFirstName(e.target.value)} />
 
-                <label htmlFor='lastName'>Last Name</label>
+                <label htmlFor='lastName' className='lastName'>Last Name</label>
                 <input required type="text" name="lasttName" id="lastName" placeholder="Enter your Last Name here" autoComplete="family-name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
 
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email' className="email">Email</label>
                 <input required type="text" name="email" id="email" placeholder='makgeolli-garden@mail.com' autoComplete="off" value={email} onChange={(e) => setEmail(e.target.value)} />
 
-                <label htmlFor='review'> Havin' something to share ? 😉 </label>
+                <label htmlFor='review' classNamme="review"> Havin' something to share ? 😉 </label>
                 <textarea required type="text" id = "review" rows = {10} cols={15} placeholder="Write here your review ! 😙" autoComplete="off" name="name" value={review} onChange={(e) => setReview(e.target.value)} />
 </fieldset>
             <button href="/" type="submit" className='showSnackbar' onClick={() => {snackbarRef.current.appear()}}>Send</button>
